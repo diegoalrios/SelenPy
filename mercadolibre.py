@@ -16,6 +16,10 @@ class Typos(unittest.TestCase):
             seach_input.send_keys('nvidia')
             seach_input.submit()
 
+            aux = True
+            if aux :
+                print("hola")
+
         else:
             self.assertEqual(page_tittle,drv.title)
     def tearDown(self):
