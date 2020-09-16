@@ -13,7 +13,7 @@ class Typos(unittest.TestCase):
         page_tittle='Mercado Libre Colombia'
         if page_tittle==drv.title:
             seach_input=drv.find_element_by_xpath('//input[@class="nav-search-input"]')
-            seach_input.send_keys('nvidia')
+            seach_input.send_keys('amd')
             seach_input.submit()
 
             aux = True
